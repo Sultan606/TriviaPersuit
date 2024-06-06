@@ -506,7 +506,7 @@ int main() {
     UserDatabase& database = UserDatabase::getInstance();
 
     while (true) {
-        std::cout << "Welcome to the Trivia Pursuit DSTR Ed.\n";
+        std::cout << "Welcome to the Card Game.\n";
         std::cout << "Choose option :\n1. Login as Student\n2. Login as Teacher\n3. Register as student\n4. Leave\n";
         std::cin >> choice;
 

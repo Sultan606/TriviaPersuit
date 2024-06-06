@@ -442,7 +442,7 @@ void gameLoop(UserDatabase& database, const std::string& username) {
                 }
                 else {
                     std::cout << "Wrong!" << std::endl;
-                    discardedDeck.discardCard(card);
+                    discardedDeck.removeCard(questionChoice);
                 }
             }
             catch (const std::out_of_range& e) {
